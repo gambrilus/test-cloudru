@@ -17,7 +17,8 @@ def author():
 
 @app.route('/id')
 def id():
-    return 'JSON Object Example'
+    return f'{ app.config.get("UUID") }'
+
 
 if __name__ == '__main__':
     # run app in debug mode on port 8000
