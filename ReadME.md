@@ -21,6 +21,7 @@
 ## Helm
 
 Чарт, разворачивающий из шаблона [app.yml](https://github.com/gambrilus/test-cloudru/blob/master/helm/templates/app.yml) деплоймент с определенными в [values.yml](https://github.com/gambrilus/test-cloudru/blob/master/helm/values.yml) переменными
-replicas - определяет значение ReplicaSet
-author - задает переменную окружения AUTHOR
-image_name - определяет имя докер-образа
+
+-replicas - определяет значение ReplicaSet
+-author - задает переменную окружения AUTHOR
+-image_name - определяет имя докер-образа
